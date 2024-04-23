@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  src: url("../fonts/Inter-Regular.woff");
+
+  font-style: normal;
+  font-weight: 400;
+  font-family: "regular";
+}
+
+@font-face {
+  src: url("../fonts/Inter-Bold.woff");
+
+  font-style: normal;
+  font-weight: 700;
+  font-family: "bold";
+}
+
+@font-face {
+  src: url("../fonts/Inika.woff");
+
+  font-style: normal;
+  font-weight: 400;
+  font-family: "inika-regular";
+}
+
+@font-face {
+  src: url("../fonts/Inika-Bold.woff");
+
+  font-style: normal;
+  font-weight: 700;
+  font-family: "inika-bold";
+}
+
+body {
+  margin: 0 auto;
+}
+
+.app {
+  margin: 0 auto;
+  min-width: 1440px;
+}
